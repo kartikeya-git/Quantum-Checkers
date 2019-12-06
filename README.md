@@ -1,2 +1,2 @@
 # QuantumCheckers
- A game of Checkers demonstrating Quantum Mechanical phenomenon.
+ A game of Checkers demonstrating effects of Quantum Mechanical phenomenon.
