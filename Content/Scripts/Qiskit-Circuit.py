@@ -44,7 +44,7 @@ def full_measure(num_of_shots = 10000):
     return counts
 
 
-def get_prob(n_shots=100):
+def get_prob(n_shots=90):
     counts = full_measure(num_of_shots=n_shots)
     L = []
     for bit, shots in counts.items():
@@ -103,6 +103,7 @@ def quantum_move(s, t):
     entanglement_dict[str(s)] = merged
     entanglement_dict[str(t)] = merged
     # return entanglement_dict'''
+
 
 
 num_qubits = 32
