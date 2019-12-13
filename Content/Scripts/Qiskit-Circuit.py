@@ -156,6 +156,17 @@ class QBoard:
         circ.reset(qr[self.actor.ResetQubit])
         circ.x(qr[self.actor.ResetQubit])
 
+    def arrange(self):
+        for i in range(num_qubits):
+            circ.reset(i)
+        list_with_keys = [str(i) for i in range(num_qubits)]
+        list_with_values = [[] for i in range(num_qubits)]
+        entanglement_dict = dict(zip(list_with_keys, list_with_values))
+        for i in range(12):
+            circ.x(qr[i])
+        for i in range(20, 32):
+            circ.x(qr[i])
+
 
 
         
