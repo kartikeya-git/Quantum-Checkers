@@ -26,5 +26,7 @@ Quantum mechanical phenomenon are not intuitive, even for the people who underst
 Each square represents a qubit. The states |0> and |1> correspond to an empty square and a piece being on the square respectively.
 When you make a normal move, the circuit swaps the corresponding qubits. When you make a quantum move, the square root of iswap is applied. The iswap has been chosen for demonstrating interference. A capture implements a three piece measurement decision tree, and resets the qubit corresponding to the captured piece back to 0, if it measured to be there. This might create a half dead half alive piece. 
 
-![Alt text](relative/path/to/5.png?raw=true "Title")
+![Screenshot1](https://github.com/VvenomSsnake/Quantum-Checkers/blob/master/Screenshots/5.png)
+![Screenshot2](https://github.com/VvenomSsnake/Quantum-Checkers/blob/master/Screenshots/6.png)
+
 
