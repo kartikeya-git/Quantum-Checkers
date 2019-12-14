@@ -1,15 +1,15 @@
 # QuantumCheckers
  Quantum Checkers is a game of Checkers demonstrating effects of Quantum Mechanical phenomenon.
  
- ##Rules
+ ###Rules
 
 The goal is to eliminate all your opponent's pieces. But now you have an advantage of making a quantum move, due to which you can split your piece with equal probabilities on the board. You or your opponent can force a measurement on the piece during an attempted capture, revealing it's position. Each square is a qubit in the IBMQ Qiskit simulator.  Get ready to create Schrodinger's cat like pieces, both Alive and Dead.
 
-##Backend
+###Backend
 
 The game runs on Unreal Engine 4 using Qiskit-Python as a tool for generating quantum effects. The UnrealEnginePython plugin is used to help Unreal Engine communicate with the Python program. The python program creates a 32 qubit circuit, one qubit for each square. With each move, a corresponding gate is applied to the respective qubits. A measurement takes pplace collapsing the state of the all associated qubits, when trying to move to a square which is in some kind of superposition.
 
-### An embedded version of python with Qiskit and Numpy is needed to play this.
+#### An embedded version of python with Qiskit and Numpy is needed to play this.
 
 The final build should already include an embedded python. In case, it is not present, an embedded version of python, with the folder containing all the modules, must be extracted in the following location: \QuantumCheckers\Binaries\
 
