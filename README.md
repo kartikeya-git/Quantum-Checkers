@@ -14,6 +14,8 @@ The game runs on Unreal Engine 4 using Qiskit-Python as a tool for generating qu
 The final build should already include an embedded python. In case, it is not present, an embedded version of python, with the folder containing all the modules, must be extracted in the following location: <GameFolder>\QuantumCheckers\Binaries\
 
 The Scripts folder should also be copied in the following location (if not already present): <GameFolder>\QuantumCheckers\Content\
+ 
+ ### The game can also be directly played from inside Unreal Engine 4.22 (higher versions not supported by UnrealEnginePython plugin)
 
 
 ## Why Checkers?
