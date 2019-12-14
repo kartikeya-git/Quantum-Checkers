@@ -1,5 +1,6 @@
 # QuantumCheckers
- Quantum Checkers is a game of Checkers demonstrating effects of Quantum Mechanical phenomenon.
+ Quantum Checkers is a game of Checkers demonstrating effects of Quantum Mechanical phenomenon like entanglement, interference and superposition. It is also possible to get a Schrodinger's Cat like situation in the game. 
+ *NOTE* This game has been submitted for the IBM Quantum Awards 2019.
  
 ## Rules
 
