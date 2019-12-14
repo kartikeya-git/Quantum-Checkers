@@ -36,6 +36,6 @@ When you make a normal move, an iswap gate is applied to the corresponding qubit
 ![Regular Move](https://github.com/VvenomSsnake/Quantum-Checkers/blob/master/Screenshots/standardmove.png)
 
 When you make a quantum move, the square root of iswap is applied. The goal is to have a gate that would create a superposition between the |10> and |01> states. The iswap has been chosen for demonstrating interference.
-![Quantum Move](https://github.com/VvenomSsnake/Quantum-Checkers/blob/master/Screenshots/QuantumMove.png)
+![Quantum Move](https://github.com/VvenomSsnake/Quantum-Checkers/blob/master/Screenshots/qmove.png)
 
 A capture implements a three piece measurement decision tree in the UnrealEngine, and resets the qubit corresponding to the captured piece back to 0, if it measured to be there. This might create a half dead half alive piece. 
