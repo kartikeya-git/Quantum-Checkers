@@ -18,4 +18,5 @@ The Scripts folder should also be copied in the following location (if not alrea
 
 ## Why Checkers?
 Quantum mechanical phenomenon are not intuitive, even for the people who understand it's math, since we do not experience quantum effects in our daily lives on a macroscopic level. We do however, understand how to ride a bicycle, balancing and tilting it, without even knowing the math. Video games provide a platform for building intuition about stuff that we do not experience in our daily lives. Simple games like tic-tac-toe, chess, and checkers that require strategy, can help explore the weird world of quantum mechanics while enjoying the game.
+
  
