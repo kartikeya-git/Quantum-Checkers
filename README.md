@@ -21,9 +21,16 @@ The Scripts folder should also be copied in the following location (if not alrea
 ## Why Checkers?
 Quantum mechanical phenomenon are not intuitive, even for the people who understand it's math, since we do not experience quantum effects in our daily lives on a macroscopic level. We do however, understand how to ride a bicycle, balancing and tilting it, without even knowing the math. Video games provide a platform for building intuition about stuff that we do not experience in our daily lives. Simple games like tic-tac-toe, chess, and checkers that require strategy, can help explore the weird world of quantum mechanics while enjoying the game.
 
-## What's going on in the circuit?
+## Operations in the circuit
 
 Each square represents a qubit. The states |0> and |1> correspond to an empty square and a piece being on the square respectively.
-When you make a normal move, the circuit swaps the corresponding qubits. When you make a quantum move, the square root of iswap is applied. The iswap has been chosen for demonstrating interference. A capture implements a three piece measurement decision tree, and resets the qubit corresponding to the captured piece back to 0, if it measured to be there. This might create a half dead half alive piece. 
+When you make a normal move, an iswap gate is applied to the corresponding qubits.
 
- 
+When you make a quantum move, the square root of iswap is applied. The goal is that if you apply the gate twice, it ends up in a regular move. The iswap has been chosen for demonstrating interference.
+
+A capture implements a three piece measurement decision tree, and resets the qubit corresponding to the captured piece back to 0, if it measured to be there. This might create a half dead half alive piece. 
+
+![Screenshot1](https://github.com/VvenomSsnake/Quantum-Checkers/blob/master/Screenshots/5.png)
+![Screenshot2](https://github.com/VvenomSsnake/Quantum-Checkers/blob/master/Screenshots/6.png)
+
+
