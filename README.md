@@ -27,7 +27,7 @@ The Scripts folder should also be copied in the following location (if not alrea
 ## Operations in the circuit
 
 Each square represents a qubit. The states |0> and |1> correspond to an empty square and a piece being on the square respectively. 
-![CIrcuit Initialization](https://github.com/VvenomSsnake/Quantum-Checkers/blob/master/Screenshots/Init.png)
+![CIrcuit Initialization](https://github.com/VvenomSsnake/Quantum-Checkers/blob/master/Screenshots/nit.png)
 
 A unitary is applied in each move, with some classical logic happening in the UnrealEngine separate from the circuit during the captures.
 ![Unitary](https://github.com/VvenomSsnake/Quantum-Checkers/blob/master/Screenshots/Unitary.png)
