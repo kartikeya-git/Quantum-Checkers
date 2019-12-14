@@ -26,10 +26,10 @@ Quantum mechanical phenomenon are not intuitive, even for the people who underst
 Each square represents a qubit. The states |0> and |1> correspond to an empty square and a piece being on the square respectively.
 When you make a normal move, iswap gate is applied to the corresponding qubits.
 
-[[1, 0, 0, 0],
- [0, 0, 1j, 0],
- [0, 1j, 0, 0],
- [0, 0, 0, 1]]
+\begin{bmatrix}
+    1 & 2 \\
+    3 & 4 
+  \end{bmatrix}
  
 When you make a quantum move, the square root of iswap is applied. The iswap has been chosen for demonstrating interference.
 
