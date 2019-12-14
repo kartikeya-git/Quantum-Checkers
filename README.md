@@ -11,9 +11,9 @@ The game runs on Unreal Engine 4 using Qiskit-Python as a tool for generating qu
 
 ### An embedded version of python with Qiskit and Numpy is needed to play this.
 
-The final build should already include an embedded python. In case, it is not present, an embedded version of python, with the folder containing all the modules, must be extracted in the following location: \QuantumCheckers\Binaries\
+The final build should already include an embedded python. In case, it is not present, an embedded version of python, with the folder containing all the modules, must be extracted in the following location: <GameFolder>\QuantumCheckers\Binaries\
 
-The Scripts folder should also be copied in the following location (if not already present): QuantumCheckers\Content\
+The Scripts folder should also be copied in the following location (if not already present): <GameFolder>\QuantumCheckers\Content\
 
 
 ## Why Checkers?
