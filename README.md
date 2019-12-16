@@ -1,14 +1,15 @@
 # QuantumCheckers
  Quantum Checkers is a game of Checkers demonstrating effects of Quantum Mechanical phenomenon like entanglement, interference and superposition. It is also possible to get a Schrodinger's Cat like situation in the game. The game just doesn't use "randomness" as a special effect(which isn't completely quantum), it is a quantum circuit behaving like a game of checkers.
  ***NOTE: This game has been submitted for the IBM Quantum Awards 2019.***
- Gameplay video: www.youtube.com/watch?v=FklcCPCSuSw
+ ***Gameplay video: www.youtube.com/watch?v=FklcCPCSuSw***
  
 ## Rules
 
-The goal is to eliminate all your opponent's pieces. But now you have an advantage of making a quantum move, due to which you can split your piece with equal probabilities on the board. You or your opponent can force a measurement on the piece during an attempted capture, revealing it's position. Each square is a qubit in the IBMQ Qiskit simulator.  Get ready to create Schrodinger's cat like pieces, both Alive and Dead.
+The goal is to eliminate all your opponent's pieces. Now you have an advantage of making a quantum move, which move your piece with 50% probability. A measurement can be forced on a piece during an attempted capture, or a standard move, revealing it's position. Each square is a qubit in the IBMQ Qiskit simulator. You can also create Schrodinger's cat like pieces, both Alive and Dead.
 
 ## Why Checkers?
-Quantum mechanical phenomenon are not intuitive, even for the people who understand it's math, since we do not experience quantum effects in our daily lives on a macroscopic level. We do however, understand how to ride a bicycle, balancing and tilting it, without even knowing the math. Video games provide a platform for building intuition about stuff that we do not experience in our daily lives. Simple games like tic-tac-toe, chess, and checkers that require strategy, can help explore the weird world of quantum mechanics while enjoying the game.
+
+Quantum mechanics is not intuitive, even for the people who understand it's math, since we do not experience quantum effects in our daily lives on a macroscopic level. We do however, understand and learn how to ride a bicycle, balancing and tilting it, without even knowing the math. Video games provide a platform for building intuition about stuff that we do not experience in our daily lives. Simple games like tic-tac-toe, chess, and checkers that require strategy, can help explore the weird world of quantum mechanics while enjoying the game.
 
 ## Backend
 
@@ -26,7 +27,7 @@ The Scripts folder should also be copied in the following location (if not alrea
 
 ## Operations in the circuit
 
-Each square represents a qubit. The states |0> and |1> correspond to an empty square and a piece being on the square respectively. 
+Each square represents a qubit. The states |0> and |1> correspond to an empty square and a piece being on the square respectively. Here's an example with two qubits.
 ![CIrcuit Initialization](https://github.com/VvenomSsnake/Quantum-Checkers/blob/master/Screenshots/__init.png)
 
 A unitary is applied in each move, with some classical logic happening in the UnrealEngine separate from the circuit during the captures.
