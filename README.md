@@ -4,7 +4,7 @@
  
  ***Gameplay video: www.youtube.com/watch?v=FklcCPCSuSw***
  
- ***Use the Release tab to download and run the game. Download and run the QuantumCheckers_setup.exe file. Follow the install instructions. After the setup is complete, you can run the game from QuantumCheckers.exe.***
+ ***Use the Release to download and run the game. Download and run the QuantumCheckers_setup.exe file. Follow the install instructions. After the setup is complete, you can run the game from QuantumCheckers.exe.***
 
 ***Direct link to Release: https://github.com/VvenomSsnake/Quantum-Checkers/releases/download/1.0/QuantumCheckers_setup.exe***
 
