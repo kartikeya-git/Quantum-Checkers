@@ -2,6 +2,7 @@
  Quantum Checkers is a game of Checkers demonstrating effects of Quantum Mechanical phenomenon like entanglement, interference and superposition. It is also possible to get a Schrodinger's Cat like situation in the game. The game just doesn't use "randomness" as a special effect(which isn't completely quantum), it is a quantum circuit behaving like a game of checkers.
  ***NOTE: This game has been submitted for the IBM Quantum Awards 2019.***
  ***Gameplay video: www.youtube.com/watch?v=FklcCPCSuSw***
+ ***Use the Release Branch to download and run the game***
  
 ## Rules
 
@@ -14,13 +15,8 @@ Quantum mechanics is not intuitive, even for the people who understand it's math
 ## Backend
 
 The game runs on Unreal Engine 4 using Qiskit-Python as a tool for generating quantum effects. The UnrealEnginePython plugin is used to help Unreal Engine communicate with the Python program. The python program creates a 32 qubit circuit, one qubit for each square. With each move, a corresponding gate is applied to the respective qubits. A measurement takes pplace collapsing the state of the all associated qubits, when trying to move to a square which is in some kind of superposition.
-### An embedded version of python with Qiskit and Numpy is needed to play this.
-
-The final build should already include an embedded python. In case, it is not present, an embedded version of python, with the folder containing all the modules, must be extracted in the following location: <GameFolder>\QuantumCheckers\Binaries\
-
-The Scripts folder should also be copied in the following location (if not already present): <GameFolder>\QuantumCheckers\Content\
- 
- ### The game can also be directly played from inside Unreal Engine 4.22 (higher versions not supported by UnrealEnginePython plugin)
+### An embedded version of python with Qiskit and Numpy is needed to play this, all are included in the release.
+### The game can also be directly played from inside Unreal Engine 4.22 (higher versions not supported by UnrealEnginePython plugin)
 
 ![Screenshot1](https://github.com/VvenomSsnake/Quantum-Checkers/blob/master/Screenshots/5.png)
 ![Screenshot2](https://github.com/VvenomSsnake/Quantum-Checkers/blob/master/Screenshots/6.png)
