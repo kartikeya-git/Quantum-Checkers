@@ -5,7 +5,9 @@
  ***Gameplay video: www.youtube.com/watch?v=FklcCPCSuSw***
  
  ***Use the Release tab to download and run the game. Download and run the QuantumCheckers_setup.exe file. Follow the install instructions. After the setup is complete, you can run the game from QuantumCheckers.exe.***
- 
+
+***Direct link to Release: https://github.com/VvenomSsnake/Quantum-Checkers/releases/download/1.0/QuantumCheckers_setup.exe***
+
 ## Rules
 
 The goal is to eliminate all your opponent's pieces. Now you have an advantage of making a quantum move, which move your piece with 50% probability. A measurement can be forced on a piece during an attempted capture, or a standard move, revealing it's position. Each square is a qubit in the IBMQ Qiskit simulator. You can also create Schrodinger's cat like pieces, both Alive and Dead.
