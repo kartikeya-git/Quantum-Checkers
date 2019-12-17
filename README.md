@@ -1,7 +1,9 @@
 # QuantumCheckers
  Quantum Checkers is a game of Checkers demonstrating effects of Quantum Mechanical phenomenon like entanglement, interference and superposition. It is also possible to get a Schrodinger's Cat like situation in the game. The game just doesn't use "randomness" as a special effect(which isn't completely quantum), it is a quantum circuit behaving like a game of checkers.
  ***NOTE: This game has been submitted for the IBM Quantum Awards 2019.***
+ 
  ***Gameplay video: www.youtube.com/watch?v=FklcCPCSuSw***
+ 
  ***Use the Release Branch to download and run the game. Download and run the QuantumCheckers_setup.exe file. Follow the install instructions. After the setup is complete, you can run the game from QuantumCheckers.exe.***
  
 ## Rules
